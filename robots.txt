@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://atsikiridis.github.io/atsikiridis/sitemap.xml
+Sitemap: https://atsikiridis.github.io/sitemap.xml
