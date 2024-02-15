@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Researcher, <a href='#'>Centrum Wiskunde & Informatica</a>.
+subtitle: Postdoctoral Researcher, <a href='https://www.cwi.nl/en/'>CWI</a>.
 
 profile:
   align: left
