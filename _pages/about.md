@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
     <p>123 Science Park</p>
     <p>1098XG Amsterdam, Netherlands</p>
 
@@ -19,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher at [Centrum Wiskunde & Informatica (CWI)](https://www.cwi.nl/en/). I am very  fortunate to be hosted by [Guido Schaefer](https://homepages.cwi.nl/~schaefer/) in the [Networks & Optimization (N&O)](https://www.cwi.nl/en/groups/networks-and-optimization/) group. I enjoy working on problems lying in the intersection of theoretical computer science, operations research and economics. I have a a particular interest in algorithmic mechanism design and discrete optimization.
+I am a postdoctoral researcher at [Centrum Wiskunde & Informatica (CWI)](https://www.cwi.nl/en/). I am very  fortunate to be hosted by [Guido Schaefer](https://homepages.cwi.nl/~schaefer/) in the [Networks & Optimization (N&O)](https://www.cwi.nl/en/groups/networks-and-optimization/) group. I enjoy working on problems lying in the intersection of theoretical computer science, operations research and economics. I have a a particular interest in algorithmic mechanism design and approximation algorithms.
 
 
 In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.aueb.gr/en/cs) of [Athens University of Economics and Business](https://www.dept.aueb.gr/en/cs). I was very fortunate to be advised by [Vangelis Markakis](http://pages.cs.aueb.gr/~markakis/) and be part of AUEB's [Theory Group](http://pages.cs.aueb.gr/othersites/TheoryGroup/index.html). Here is my [CV](/assets/pdf/academic-cv.pdf).
