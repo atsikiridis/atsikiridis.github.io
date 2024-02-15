@@ -5,9 +5,9 @@ permalink: /
 subtitle: Postdoctoral Researcher, <a href='#'>Centrum Wiskunde & Informatica</a>.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>123 Science Park</p>
     <p>1098XG Amsterdam, Netherlands</p>
