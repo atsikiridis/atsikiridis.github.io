@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Artem Tsikiridis
 permalink: /
 subtitle: Postdoctoral Researcher, <a href='https://www.cwi.nl/en/'>CWI</a>.
 
