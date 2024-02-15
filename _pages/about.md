@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>firstname@cwi.nl
+    <p>firstname.lastname@cwi.nl
     <p>123 Science Park</p>
     <p>1098XG Amsterdam, Netherlands</p>
 
