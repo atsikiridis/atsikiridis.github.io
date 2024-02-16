@@ -7,7 +7,7 @@ subtitle: Postdoctoral Researcher, <a href='https://www.cwi.nl/en/'>CWI</a>.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>firstname.lastname@cwi.nl
     <p>123 Science Park</p>
