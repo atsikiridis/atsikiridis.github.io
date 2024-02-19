@@ -57,8 +57,34 @@ layout: default
     {% endif %}
 
     <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">research</a>
     </h2>
+    <div class="publications">
+        <h4>Working papers</h4><br>
+
+      <table class="table">
+      <tbody>
+      <tr>
+      <td style="width:5%">
+          <span class="label" style="background-color: #c29619">U1</span>
+      </td>
+      <td>
+      <b> Test 1 </b> <br>
+        with test authors
+      </td>
+      </tr>
+      </tbody></table>
+    <br>
+    </div>
+
+    <div class="publications">
+    {% bibliography %}
+    </div>
+
+    <div class="publications">
+    {% bibliography %}
+    </div>
+
     <div class="publications">
     {% bibliography %}
     </div>
