@@ -60,13 +60,13 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">research</a>
     </h2>
     <div class="publications">
-        <h4>Working papers</h4><br>
+        <h3>working papers</h3><br>
 
       <table class="table">
       <tbody>
       <tr>
       <td style="width:5%">
-          <span class="label" style="background-color: #c29619">U1</span>
+          <span class="label">[U1]</span>
       </td>
       <td>
       <b> Test 1 </b> <br>
@@ -78,16 +78,76 @@ layout: default
     </div>
 
     <div class="publications">
-    {% bibliography %}
+            <h3>journal publications</h3><br>
+
+          <table class="table">
+          <tbody>
+          <tr>
+          <td style="width:5%">
+              <span class="label">[U1]</span>
+          </td>
+          <td>
+          <b> Test 1 </b> <br>
+            with test authors
+          </td>
+          </tr>
+          </tbody></table>
+        <br>
     </div>
 
     <div class="publications">
-    {% bibliography %}
+            <h3>conference publications</h3><br>
+
+          <table class="table">
+          <tbody>
+          <tr>
+          <td style="width:5%">
+              <span class="label">[U1]</span>
+          </td>
+          <td>
+          <b> Test 1 </b> <br>
+            with test authors
+          </td>
+          </tr>
+          </tbody></table>
+        <br>
     </div>
 
     <div class="publications">
-    {% bibliography %}
+                <h3>theses</h3><br>
+
+              <table class="table">
+              <tbody>
+              <tr>
+              <td style="width:5%">
+                  <span class="label">[U1]</span>
+              </td>
+              <td>
+              <b> Test 1 </b> <br>
+                with test authors
+              </td>
+              </tr>
+              </tbody></table>
+            <br>
     </div>
+
+        <div class="publications">
+                    <h3>other</h3><br>
+
+                  <table class="table">
+                  <tbody>
+                  <tr>
+                  <td style="width:5%">
+                      <span class="label">[U1]</span>
+                  </td>
+                  <td>
+                  <b> Test 1 </b> <br>
+                    with test authors
+                  </td>
+                  </tr>
+                  </tbody></table>
+                <br>
+        </div>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
