@@ -24,5 +24,6 @@ Welcome! I am a postdoctoral researcher at [Centrum Wiskunde & Informatica (CWI)
 
 In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.aueb.gr/en/cs) of [Athens University of Economics and Business](https://www.dept.aueb.gr/en/cs). I was very fortunate to be advised by [Vangelis Markakis](http://pages.cs.aueb.gr/~markakis/) and be part of the department's [Theory Group](http://pages.cs.aueb.gr/othersites/TheoryGroup/index.html).
 
-
 Here is my [CV](/assets/pdf/academic-cv.pdf).
+
+*Program Committees:* SAGT (2023)
