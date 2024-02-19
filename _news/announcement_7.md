@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-In November, I will be attending the Algorithms, Approximation, and Learning in Market and Mechanism Design Workshop at the Simons Laufer Institute (former MSRI) in Berkeley.
+In November, I will be attending the <a href="https://www.slmath.org/workshops/1082">Algorithms, Approximation, and Learning in Market and Mechanism Design</a> Workshop at the Simons Laufer Institute (former MSRI) in Berkeley.
