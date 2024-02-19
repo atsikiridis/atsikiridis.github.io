@@ -26,4 +26,4 @@ In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.
 
 Here is my [CV](/assets/pdf/academic-cv.pdf).
 
-*Program Committees:* SAGT (2023)
+*Programme Committees:* SAGT (2023)

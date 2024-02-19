@@ -12,7 +12,7 @@
         {% if include.limit and site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
-          {% assign news_limit = news_size %}
+          {% assign news_limit = 10 %}
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>

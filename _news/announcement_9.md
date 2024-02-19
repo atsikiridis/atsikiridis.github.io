@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I got my first conference program committee invitation! I will be serving in the PC of SAGT 2023.
+I will be in the Programme Committee of <a href="https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/computer-science/sagt-2023">SAGT 2023</a>.
