@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Happy to be part of the local organization team of [SAGT 2024](https://www.cwi.nl/en/groups/networks-and-optimization/events/sagt-2024/). The conference will be held at CWI in September.
+Happy to be part of the local organization team of [SAGT 2024](https://www.cwi.nl/en/groups/networks-and-optimization/events/sagt-2024/). The conference will be held at CWI in September. See you in Amsterdam!
