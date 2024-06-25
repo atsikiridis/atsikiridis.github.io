@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-06-04 07:59:00-0400
+date: 2023-09-19 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I am at the workshop on <a href="https://sites.google.com/view/workshop-alga/home">Algorithms, Learning and Games</a> (ALGA) in Sicily. You can find me at the poster session!
+In November, I will be attending the <a href="https://www.slmath.org/workshops/1082">Algorithms, Approximation, and Learning in Market and Mechanism Design</a> Workshop at the Simons Laufer Institute (former MSRI) in Berkeley. I will also be presenting a <a href="/assets/pdf/slmath.pdf">poster</a>.

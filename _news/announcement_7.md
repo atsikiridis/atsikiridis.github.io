@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-19 07:59:00-0400
+date: 2023-10-01 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-In November, I will be attending the <a href="https://www.slmath.org/workshops/1082">Algorithms, Approximation, and Learning in Market and Mechanism Design</a> Workshop at the Simons Laufer Institute (former MSRI) in Berkeley. I will also be presenting a <a href="/assets/pdf/slmath.pdf">poster</a>.
+Our paper with Georgios Amanatidis, Sophie Klumper, Evangelos Markakis and Guido Schäfer <a href="https://arxiv.org/abs/2307.07385">Partial Allocations in Budget-Feasible Mechanism Design: Bridging Multiple Levels of Service and Divisible Agents</a> has been accepted to <a href="https://wine2023.shanghaitech.edu.cn/">WINE 2023</a>!
