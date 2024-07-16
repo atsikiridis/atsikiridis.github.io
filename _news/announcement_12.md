@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am in the Programme Committees of [WINE 2024](https://wine2024.org) and [AAMAS 2025](https://aamas2025.org)
+I am in the Programme Committees of [WINE 2024](https://wine2024.org) and [AAMAS 2025](https://aamas2025.org).
