@@ -32,4 +32,5 @@ Here is my [CV](/assets/pdf/academic-cv.pdf).
 - AAMAS (2025)
 - ECAI (2024)
 
-*Journal Reviewer:* Theoretical Computer Science (2023-2024)
+*Journal Reviewer:*
+- Theoretical Computer Science (2023, 2024)
