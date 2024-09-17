@@ -26,6 +26,6 @@ In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.
 
 Here is my [CV](/assets/pdf/academic-cv.pdf).
 
-*Programme Committees:* WINE (2024), SAGT (2023), AAMAS (2025), ECAI (2024)
+*Program Committees:* WINE (2024), SAGT (2023), AAMAS (2025), ECAI (2024)
 
 *Journal Reviewer:* Theoretical Computer Science (2023, 2024)
