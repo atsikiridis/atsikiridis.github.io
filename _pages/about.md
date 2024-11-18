@@ -26,7 +26,7 @@ In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.
 
 Here is my [CV](/assets/pdf/academic-cv.pdf).
 
-<span style="color:blue">I am on the job market for 2025! My SIGecom Job Market Profile can be found [here](https://www.cs.drexel.edu/~vg399/SIGecomProfiles2025). Would be happy to talk to you!</span>
+<span style="color:blue">I am on the job market for 2025. My SIGecom Job Market Profile can be found [here](https://www.cs.drexel.edu/~vg399/SIGecomProfiles2025). Please feel free to reach out!</span>
 
 
 *Program Committees:* WINE (24), SAGT (23), AAMAS (25), ECAI (24)
