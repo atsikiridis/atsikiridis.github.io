@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a talk at the [Dutch Seminar on Optimization](https://portals.project.cwi.nl/dutch-optimization-seminar/dutch-optimization-seminar) on our upcoming [paper](https://arxiv.org/abs/2407.15261)  Pandora's Box Problem Over Time. You can watch the video [here](https://vimeo.com/1030373063/4ec4ecc7bb)
+I gave a talk at the [Dutch Seminar on Optimization](https://portals.project.cwi.nl/dutch-optimization-seminar/dutch-optimization-seminar) on our upcoming [paper](https://arxiv.org/abs/2407.15261)  Pandora's Box Problem Over Time. You can watch the video [here](https://vimeo.com/1030373063/4ec4ecc7bb).

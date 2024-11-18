@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>firstname.lastname@cwi.nl
+    <p>artem.tsikiridis@cwi.nl
     <p>123 Science Park</p>
     <p>1098XG Amsterdam, Netherlands</p>
 
@@ -25,6 +25,9 @@ Welcome! I am a postdoctoral researcher at [Centrum Wiskunde & Informatica (CWI)
 In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.aueb.gr/en/cs) of [Athens University of Economics and Business](https://www.dept.aueb.gr/en/cs). I was very fortunate to be advised by [Vangelis Markakis](http://pages.cs.aueb.gr/~markakis/) and be part of the department's [Theory Group](http://pages.cs.aueb.gr/othersites/TheoryGroup/index.html).
 
 Here is my [CV](/assets/pdf/academic-cv.pdf).
+
+<span style="color:blue">I am currently on the academic job market. Please feel free to get in touch</span>.
+
 
 *Program Committees:* WINE (24), SAGT (23), AAMAS (25), ECAI (24)
 
