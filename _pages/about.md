@@ -30,6 +30,6 @@ Here is my [CV](/assets/pdf/academic-cv.pdf).
 ***I am on the job market for 2025. My SIGecom job market profile can be found [here](https://www.cs.drexel.edu/~vg399/SIGecomProfiles2025.pdf#page=35). Feel free to reach out!***
 
 
-*Program Committees:* WINE (24), SAGT (23), AAMAS (25), ECAI (24)
+*Program Committees:* EC (25), WINE (24), AAMAS (25), ECAI (24), SAGT (23)
 
 *Journal Reviewer:* Theoretical Computer Science (23, 24)
