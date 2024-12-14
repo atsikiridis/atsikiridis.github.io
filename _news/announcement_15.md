@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am in the programme committee of [EC 2025](https://ec25.sigecom.org/).
+I am in the program committee of [EC 2025](https://ec25.sigecom.org/).
