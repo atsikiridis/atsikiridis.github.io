@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a postdoctoral researcher at [Centrum Wiskunde & Informatica (CWI)](https://www.cwi.nl/en/). I am hosted by [Guido Schäfer](https://homepages.cwi.nl/~schaefer/) in the [Networks & Optimization (N&O)](https://www.cwi.nl/en/groups/networks-and-optimization/) group. I enjoy working on problems lying in the intersection of computer science and economics, with a particular interest in algorithmic mechanism design, auctions and pricing and online algorithms.
+Welcome! I am a postdoctoral researcher at [Centrum Wiskunde & Informatica (CWI)](https://www.cwi.nl/en/). I am hosted by [Guido Schäfer](https://homepages.cwi.nl/~schaefer/) in the [Networks & Optimization (N&O)](https://www.cwi.nl/en/groups/networks-and-optimization/) group. I enjoy working on problems lying in the intersection of computer science and economics, with a particular interest in algorithmic mechanism design, auctions, and online algorithms.
 
 
 In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.aueb.gr/en/cs) of [Athens University of Economics and Business](https://www.dept.aueb.gr/en/cs). I was very fortunate to be advised by [Vangelis Markakis](http://pages.cs.aueb.gr/~markakis/) and be part of the department's [Theory Group](http://pages.cs.aueb.gr/othersites/TheoryGroup/index.html).
@@ -27,9 +27,9 @@ In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.
 Here is my [CV](/assets/pdf/academic-cv.pdf).
 
 
-***I am on the job market for 2025. My SIGecom job market profile can be found [here](https://www.cs.drexel.edu/~vg399/SIGecomProfiles2025.pdf#page=35). Feel free to reach out!***
+***I am on the postdoc job market for 2025.***
 
 
-*Program Committees:* EC (25), WINE (24), AAMAS (25), ECAI (24), SAGT (23)
+*Program Committees:* EC (25), IJCAI (25), WINE (24), AAMAS (25), ECAI (24-25), SAGT (23, 25)
 
-*Journal Reviewer:* Theoretical Computer Science (23, 24)
+*Journal Reviewer:* Naval Research Logistics (25), Theoretical Computer Science (23, 24)
