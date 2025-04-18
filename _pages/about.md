@@ -27,9 +27,6 @@ In 2023, I completed my PhD in the [Department of Informatics](https://www.dept.
 Here is my [CV](/assets/pdf/academic-cv.pdf).
 
 
-***I am on the postdoc job market for 2025.***
-
-
 *Program Committees:* EC (25), IJCAI (25), WINE (24), AAMAS (25), ECAI (24-25), SAGT (23, 25)
 
 *Journal Reviewer:* Naval Research Logistics (25), Theoretical Computer Science (23, 24)
