@@ -29,4 +29,4 @@ Here is my [CV](/assets/pdf/academic-cv.pdf).
 
 *Program Committees:* EC (25), IJCAI (25), WINE (24-25), AAMAS (25), ECAI (24-25), SAGT (23, 25)
 
-*Journal Reviewer:* Naval Research Logistics (25), Theoretical Computer Science (23, 24)
+*Journal Reviewer:* Naval Research Logistics (25), Theoretical Computer Science (23, 24, 25), JAAMAS (25)
