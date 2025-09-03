@@ -2,16 +2,16 @@
 layout: about
 title: Artem Tsikiridis
 permalink: /
-subtitle: Postdoctoral Researcher, <a href='https://www.cwi.nl/en/'>CWI</a>.
+subtitle: Postdoctoral Researcher, <a href='https://www.tum.de'>Technical University of Munich</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>artem.tsikiridis@cwi.nl
-    <p>123 Science Park</p>
-    <p>1098XG Amsterdam, Netherlands</p>
+    <p>tsik@cit.tum.de
+    <p>Boltzmannstr. 3</p>
+    <p>85748 Munich, Germany</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
