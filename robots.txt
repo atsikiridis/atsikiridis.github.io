@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://atsikiridis.github.io/sitemap.xml
+Sitemap: https://artemtsikiridis.com/sitemap.xml
