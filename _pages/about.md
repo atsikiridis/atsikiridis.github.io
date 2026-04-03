@@ -25,8 +25,8 @@ Before this, I was a postdoc for two wonderful years at the [Centrum Wiskunde & 
 
 I enjoy working on problems at the intersection of computer science and economics, with a particular interest in algorithmic mechanism design, auctions, and online algorithms.
 
-*Program Committees:* EC (25-26), WINE (24-25), WebConf/WWW (26), AAAI (26), IJCAI (25-26), AAMAS (25-26), ECAI (24-25), SAGT (23, 25)
+*Program Committees:* EC (25-26), WINE (24-26), WebConf/WWW (26), AAAI (26), IJCAI (25-26), AAMAS (25-26), ECAI (24-25), SAGT (23, 25-26)
 
-*Journal Reviewer:* Operations Research (25), Artificial Intelligence (26), Naval Research Logistics (25), Theoretical Computer Science (23, 24, 25), Autonomous Agents and Multi-Agent Systems (25), ACM Transactions on the Web (25)
+*Journal Reviewer:* Operations Research (25), Artificial Intelligence (26), Naval Research Logistics (25), ACM Transactions on Economics and Computation (26), Theoretical Computer Science (23, 24, 25), Autonomous Agents and Multi-Agent Systems (25), ACM Transactions on the Web (25)
 
-*Subreviewer:* STOC (25-26), SODA (26), EC (20, 22, 24), WINE (17–21), ITCS (20), ICALP (19, 25), AAMAS (18,24), SAGT (22, 24) STACS (24), MFCS (25), SOSA (25)
+*Subreviewer:* STOC (25-26), SODA (26), EC (20, 22, 24), ICALP (19, 25-26), WINE (17–20), ITCS (20), STACS (25), AAMAS (18,23), APPROX (23), SAGT (22, 24), MFCS (25), FCT (21), SWAT (2026), SOSA (25)
