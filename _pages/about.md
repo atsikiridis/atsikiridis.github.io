@@ -29,4 +29,4 @@ I enjoy working on problems at the intersection of computer science and economic
 
 *Journal Reviewer:* Operations Research (25), Artificial Intelligence (26), Naval Research Logistics (25), ACM Transactions on Economics and Computation (26), Theoretical Computer Science (23, 24, 25), Autonomous Agents and Multi-Agent Systems (25), ACM Transactions on the Web (25)
 
-*Subreviewer:* STOC (25-26), SODA (26), EC (20, 22, 24), ICALP (19, 25-26), WINE (17–20), ITCS (20), STACS (25), AAMAS (18,23), APPROX (23), SAGT (22, 24), MFCS (25), FCT (21), SWAT (2026), SOSA (25)
+*Subreviewer:* STOC (25-26), SODA (26), EC (20, 22, 24), ICALP (19, 25-26), WINE (17–20), ITCS (20), STACS (25), AAMAS (18,23), APPROX (23), SAGT (22, 24), MFCS (25), FCT (21), SWAT (26), SOSA (25)
