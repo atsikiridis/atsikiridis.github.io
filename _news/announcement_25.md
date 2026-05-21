@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I enjoyed visiting the [AI and Economics](https://aiecon.mimuw.edu.pl) research group at the University of Warsaw from April 15--17, where I gave a [talk](https://aiecon.mimuw.edu.pl/research/research-seminar/) on learning-augmented mechanism design.
+I enjoyed visiting the [AI and Economics](https://aiecon.mimuw.edu.pl) research group at the University of Warsaw from April 15--17, where I gave a [talk](https://www.mimuw.edu.pl/en/seminars/talk/learning-augmented-mechanism-design-with-and-without-money/) on learning-augmented mechanism design.
