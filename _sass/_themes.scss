@@ -1,0 +1,318 @@
+/*******************************************************************************
+ * Themes
+ ******************************************************************************/
+@use "variables" as v;
+@use "sass:color";
+
+:root {
+  color-scheme: light;
+  --global-bg-color: #{v.$white-color};
+  --global-code-bg-color: rgba(0, 68, 124, 0.05); // site: UW dark blue, 5%
+  --global-text-color: #{v.$black-color};
+  --global-text-color-light: #{v.$grey-color};
+  --global-theme-color: #00447c; // site: UW dark blue (Pantone 295)
+  --global-hover-color: #0092ce; // site: UW light blue (Pantone 2925)
+  --global-hover-text-color: #{v.$white-color};
+  --global-footer-bg-color: #{v.$grey-color-dark};
+  --global-footer-text-color: #{v.$grey-color-light};
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #{v.$grey-color};
+  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-card-bg-color: #{v.$white-color};
+  --global-highlight-color: #d4a300; // site: gold, for the best-paper award button and text
+  --global-back-to-top-bg-color: rgba(
+    #{color.channel(v.$black-color, "red", v.$space: rgb)},
+    #{color.channel(v.$black-color, "green", v.$space: rgb)},
+    #{color.channel(v.$black-color, "blue", v.$space: rgb)},
+    0.4
+  );
+  --global-back-to-top-text-color: #{v.$white-color};
+  --global-newsletter-bg-color: #{v.$white-color};
+  --global-newsletter-text-color: #{v.$black-color};
+
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+
+  #light-toggle-system {
+    display: inline-block;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  .only-light {
+    display: block;
+  }
+
+  .only-dark {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+    bottom: v.$back-to-top-bottom;
+    right: v.$back-to-top-right;
+    height: v.$back-to-top-height;
+    width: v.$back-to-top-width;
+    z-index: v.$back-to-top-z-index;
+  }
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --global-bg-color: #{v.$grey-color-dark};
+  --global-code-bg-color: #{v.$code-bg-color-dark};
+  --global-text-color: #{v.$grey-color-light};
+  --global-text-color-light: #{v.$grey-color};
+  --global-theme-color: #{v.$cyan-color};
+  --global-hover-color: #{v.$cyan-color};
+  --global-hover-text-color: #{v.$white-color};
+  --global-footer-bg-color: #{v.$grey-color-light};
+  --global-footer-text-color: #{v.$grey-color-dark};
+  --global-footer-link-color: #{v.$black-color};
+  --global-distill-app-color: #{v.$grey-color-light};
+  --global-divider-color: #424246;
+  --global-card-bg-color: #{v.$grey-900};
+  --global-back-to-top-bg-color: rgba(
+    #{color.channel(v.$white-color, "red", v.$space: rgb)},
+    #{color.channel(v.$white-color, "green", v.$space: rgb)},
+    #{color.channel(v.$white-color, "blue", v.$space: rgb)},
+    0.5
+  );
+  --global-back-to-top-text-color: #{v.$black-color};
+  --global-newsletter-bg-color: #{v.$grey-color-light};
+  --global-newsletter-text-color: #{v.$grey-color-dark};
+
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #215d42;
+  --global-tip-block-text: #beffe2;
+  --global-tip-block-title: #e2f5ec;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #6b5900;
+  --global-warning-block-text: #fff2af;
+  --global-warning-block-title: #fff8d8;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #600;
+  --global-danger-block-text: #ffb9b9;
+  --global-danger-block-title: #ffe0e0;
+
+  .only-light {
+    display: none;
+  }
+
+  .only-dark {
+    display: block;
+  }
+}
+
+html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    display: inline-block;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
+}
+
+html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: inline-block;
+  }
+}
+
+.fa-half-sun-moon {
+  position: relative;
+  display: inline-block;
+
+  --fa-font: var(--fa-font-solid);
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 1em;
+  height: 1em;
+}
+
+.fa-half-sun-moon::before,
+.fa-half-sun-moon::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: -0.5px;
+  bottom: -0.5px;
+  text-align: center;
+  line-height: 1em;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  font: var(--fa-font);
+}
+
+/* Left half: MOON */
+.fa-half-sun-moon::before {
+  content: "\f111";
+  color: var(--global-text-color);
+  clip-path: polygon(0 0, calc(50% - 0.5px) 0, calc(50% - 0.5px) 100%, 0 100%);
+}
+
+/* Right half: SUN */
+.fa-half-sun-moon::after {
+  content: "\f185";
+  color: var(--global-text-color);
+  clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
+  right: -1.5px; /* slight overflow to avoid right-edge clipping */
+  transform: translateX(-1px); /* visually re-center the sun half */
+}
+
+#light-toggle:hover .fa-half-sun-moon::before {
+  color: var(--global-theme-color);
+}
+
+#light-toggle:hover .fa-half-sun-moon::after {
+  color: var(--global-theme-color);
+}
+
+/*******************************************************************************
+ * Site additions (not part of al_folio_core)
+ * Colours: University of Warsaw palette,
+ * https://promocja.uw.edu.pl/identyfikacja-wizualna/kolorystyka/
+ ******************************************************************************/
+
+// Navy links are hard to tell from black text (contrast 2.1:1), so links in
+// running text get a light-blue underline that turns solid on hover.
+.post article p a:not(.btn),
+.post .news td a,
+.publications .periodical a {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 146, 206, 0.45);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+// Navigation bar in UW dark blue, as on uw.edu.pl. Scoped to #navbar because
+// the gem's navbar styles are loaded after this file.
+#navbar.navbar {
+  background-color: var(--global-theme-color);
+  border-bottom: 0;
+  opacity: 1;
+
+  .navbar-brand,
+  .navbar-brand span,
+  .navbar-nav .nav-item .nav-link,
+  .navbar-brand.social a i::before {
+    color: #ffffff;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover,
+  .navbar-brand.social a:hover i::before {
+    color: #9fd6ef;
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #0092ce;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.4em;
+  }
+
+  .navbar-toggler .icon-bar {
+    background-color: #ffffff;
+  }
+}
+
+// Publication tags (J4, C11, ...): compact labels instead of full-width
+// venue badges. The badge's `w-100` width sits in a Tailwind cascade layer,
+// where its !important beats any unlayered rule, so cap max-width instead.
+.publications .abbr abbr.badge {
+  max-width: max-content;
+  min-width: 2.6rem;
+  padding: 0.35em 0.55em;
+  font-size: 0.75rem;
+}
+
+// Publications page: section headings (working papers, journal publications,
+// ...) in UW dark blue and left-aligned like the other headings. The gem draws
+// them right-aligned in the divider colour, 10% black.
+.post .publications h2.bibliography {
+  color: var(--global-theme-color);
+  text-align: left;
+}
+
+// Venue acronym at the end of a booktitle, wrapped in <strong> by
+// _includes/hook/bib.liquid. Explicit weight: `bolder` on the light (300) body
+// text only reaches 400.
+.publications .periodical strong {
+  font-weight: 700;
+}
+
+// Best-paper award button in gold, set apart from the pdf / doi / video
+// buttons. Prefixed with .post to outrank the gem's rule, which loads later.
+// The gold border and the border of the opened award text come from
+// --global-highlight-color above.
+.post .publications ol.bibliography li .links a.award.btn {
+  color: #7a5c00;
+  background-color: #fff3c4;
+  font-weight: 700;
+
+  &:hover {
+    color: #5c4500;
+    background-color: #ffe79a;
+  }
+}
+
+// Service page: "Venue: years" lists in two columns (one on phones). Items
+// run down the first column, then the second.
+.post ul.service-cols {
+  column-count: 2;
+  column-gap: 2rem;
+
+  li {
+    break-inside: avoid;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .post ul.service-cols {
+    column-count: 1;
+  }
+}
