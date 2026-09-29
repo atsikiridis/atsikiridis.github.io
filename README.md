@@ -11,7 +11,7 @@ Source of [artemtsikiridis.com](https://artemtsikiridis.com), built with the [al
 | Publications (home page and `/publications/`) | `_bibliography/papers.bib`; `selected = {true}` puts a paper on the home page, `abbr` is its tag (a new conference paper gets the next C number) |
 | Sections of the publications page | `_pages/publications.md` |
 | Bold venue acronym in publication lists, e.g. (**EC**) | `_includes/hook/bib.liquid`, a hook that al-folio's bib layout calls; it bolds the last parenthesised part of `booktitle` |
-| Service page | `_pages/service.md` (each list shows in two columns; keep the `{: .service-cols}` line directly under it) |
+| Service page | `_pages/service.md`: one `- **Venue**: years` bullet per venue; keep the `{: .service-cols}` line directly under each list (it gives the two columns and the line above the list's heading) |
 | PDFs (papers, posters, theses, CV) | `assets/pdf/` |
 | Profile photo | `assets/img/prof_pic.jpg` (the 480/800/1400px WebP versions are generated at build time) |
 | Profile links (ORCID, Scholar, LinkedIn, DBLP) | `_data/socials.yml` |
