@@ -278,10 +278,11 @@ html[data-theme-setting="light"] {
   text-align: left;
 }
 
-// Venue acronym at the end of a booktitle, wrapped in <strong> by
-// _includes/hook/bib.liquid. Explicit weight: `bolder` on the light (300) body
-// text only reaches 400.
-.publications .periodical strong {
+// Bold text (**...** in Markdown, and the venue acronyms that
+// _includes/hook/bib.liquid wraps in <strong>) at a clearly bold weight. The
+// body text is light (300), where the default `bolder` only reaches 400.
+.post article strong,
+.post article b {
   font-weight: 700;
 }
 
@@ -315,4 +316,12 @@ html[data-theme-setting="light"] {
   .post ul.service-cols {
     column-count: 1;
   }
+}
+
+// Service page: a line above each section heading, as on the publications
+// page. Applies to any heading directly followed by a service list.
+.post article h2:has(+ ul.service-cols) {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  margin-top: 2rem;
 }
