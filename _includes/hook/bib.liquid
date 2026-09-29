@@ -1,0 +1,12 @@
+{%- comment -%}
+  Site hook, included by al_folio_core's _layouts/bib.liquid once the venue
+  text (`entrytype`) is assembled. Bolds the acronym that ends a booktitle,
+  "... Economics and Computation (EC)" -> "... (<strong>EC</strong>)".
+  Journal names carry no acronym and are left alone.
+{%- endcomment -%}
+{%- if entry.booktitle contains '(' -%}
+  {%- assign venue_acronym = entry.booktitle | split: '(' | last | split: ')' | first -%}
+  {%- capture venue_plain -%}({{ venue_acronym }})</em>{%- endcapture -%}
+  {%- capture venue_bold -%}(<strong>{{ venue_acronym }}</strong>)</em>{%- endcapture -%}
+  {%- assign entrytype = entrytype | replace: venue_plain, venue_bold -%}
+{%- endif -%}

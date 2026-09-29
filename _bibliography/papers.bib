@@ -1,85 +1,279 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% Publications of Artem Tsikiridis, newest first.
+% The publications page groups them by entry type (unpublished, article,
+% inproceedings, phdthesis/mastersthesis); "keywords = {other}" moves an
+% entry to the "other" section. Entries with "selected = {true}" also appear
+% on the home page. Bibliographic data from Crossref and arXiv.
+% abbr holds the publication tag, numbered per type with the newest highest:
+% M = working papers (manuscripts), J = journal, C = conference, D = theses,
+% W = workshop (other). A new conference paper gets the next C number.
+% (No at-signs in these comment lines: BibTeX would read them as entries.)
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+% ---------------------------------------------------------------- working papers
+
+@unpublished{deligkas2025outliers,
+  title       = {Mechanism Design with Outliers and Predictions},
+  author      = {Deligkas, Argyrios and Eiben, Eduard and Klumper, Sophie and Sch{\"a}fer, Guido and Tsikiridis, Artem},
+  year        = {2025},
+  abbr        = {M2},
+  arxiv       = {2509.09561},
+  bibtex_show = {true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@unpublished{kroll2026liquid,
+  title  = {Tight Liquid Welfare Guarantees for Auctions with Budgets via LP Duality},
+  abbr   = {M1},
+  author = {Kroll, Twan and Sch{\"a}fer, Guido and Tsikiridis, Artem},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
+% ---------------------------------------------------------------- 2026
+
+@inproceedings{bichler2026signaling,
+  title       = {On the Convergence of First-Order Methods in Signaling Games},
+  author      = {Bichler, Martin and Sahitaj, Rilind and Tsikiridis, Artem},
+  booktitle   = {40th Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year        = {2026},
+  abbr        = {C11},
+  selected    = {true},
+  bibtex_show = {true},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{amanatidis2026online,
+  title           = {Online Budget-Feasible Mechanism Design with Predictions},
+  author          = {Amanatidis, Georgios and Markakis, Evangelos and Santorinaios, Christodoulos and Sch{\"a}fer, Guido and Tsamopoulos, Panagiotis and Tsikiridis, Artem},
+  journal         = {Theoretical Computer Science},
+  volume          = {1087},
+  pages           = {116260},
+  year            = {2026},
+  doi             = {10.1016/j.tcs.2026.116260},
+  abbr            = {J4},
+  arxiv           = {2505.24624},
+  note            = {Supersedes the <a href="/publications/#amanatidis2025online">SAGT 2025 paper</a>.},
+  bibtex_show     = {true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{dekeijzer2026breaking,
+  title       = {Breaking Barriers, Finding Boundaries: Not Obviously Manipulable Budget-Feasible Mechanism Design},
+  author      = {{de Keijzer}, Bart and Sch{\"a}fer, Guido and Tsikiridis, Artem and Ventre, Carmine},
+  booktitle   = {40th AAAI Conference on Artificial Intelligence (AAAI)},
+  volume      = {40},
+  number      = {20},
+  pages       = {16803--16811},
+  year        = {2026},
+  doi         = {10.1609/aaai.v40i20.38724},
+  abbr        = {C10},
+  bibtex_show = {true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{colinibaldeschi2026optimal,
+  title       = {Optimal Type-Dependent Liquid Welfare Guarantees for Autobidding Agents with Budgets},
+  author      = {Colini-Baldeschi, Riccardo and Klumper, Sophie and Kroll, Twan and Leonardi, Stefano and Sch{\"a}fer, Guido and Tsikiridis, Artem},
+  booktitle   = {37th ACM-SIAM Symposium on Discrete Algorithms (SODA)},
+  pages       = {1795--1823},
+  year        = {2026},
+  doi         = {10.1137/1.9781611978971.64},
+  abbr        = {C9},
+  arxiv       = {2506.20908},
+  poster      = {alga25.pdf},
+  note        = {Poster at ALGA 25.},
+  selected    = {true},
+  bibtex_show = {true},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+% ---------------------------------------------------------------- 2025
+
+@article{amanatidis2025pandora,
+  title           = {Pandora's Box Problem with Time Constraints},
+  author          = {Amanatidis, Georgios and Berger, Ben and Ezra, Tomer and Feldman, Michal and Fusco, Federico and Reiffenh{\"a}user, Rebecca and Tsikiridis, Artem},
+  journal         = {Artificial Intelligence},
+  volume          = {349},
+  pages           = {104426},
+  year            = {2025},
+  doi             = {10.1016/j.artint.2025.104426},
+  abbr            = {J3},
+  arxiv           = {2407.15261},
+  video           = {https://vimeo.com/1030373063/4ec4ecc7bb},
+  note            = {Talk at the Dutch Seminar on Optimization. Supersedes the <a href="/publications/#amanatidis2024pandora">WINE 2024 paper</a> and <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30015">this AAAI 2024 paper</a> of Ben, Federico, Michal and Tomer.},
+  selected        = {true},
+  bibtex_show     = {true},
+}
+
+@inproceedings{amanatidis2025online,
+  title       = {Online Budget-Feasible Mechanism Design with Predictions},
+  author      = {Amanatidis, Georgios and Markakis, Evangelos and Santorinaios, Christodoulos and Sch{\"a}fer, Guido and Tsamopoulos, Panagiotis and Tsikiridis, Artem},
+  booktitle   = {18th International Symposium on Algorithmic Game Theory (SAGT)},
+  pages       = {402--421},
+  year        = {2025},
+  doi         = {10.1007/978-3-032-03639-1_22},
+  abbr        = {C8},
+  arxiv       = {2505.24624},
+  note        = {Superseded by the <a href="/publications/#amanatidis2026online">TCS 2026 paper</a>.},
+  bibtex_show = {true},
+}
+
+@article{amanatidis2025partial,
+  title           = {Partial Allocations in Budget-Feasible Mechanism Design: Bridging Multiple Levels of Service and Divisible Agents},
+  author          = {Amanatidis, Georgios and Klumper, Sophie and Markakis, Evangelos and Sch{\"a}fer, Guido and Tsikiridis, Artem},
+  journal         = {ACM Transactions on Economics and Computation},
+  volume          = {13},
+  number          = {2},
+  pages           = {1--28},
+  year            = {2025},
+  doi             = {10.1145/3723883},
+  abbr            = {J2},
+  arxiv           = {2307.07385},
+  poster          = {slmath.pdf},
+  note            = {Supersedes the <a href="/publications/#amanatidis2023partial">WINE 2023 paper</a>. Appeared as a poster at the SLMath <a href="https://www.slmath.org/workshops/1082">workshop</a> on Algorithms, Approximation and Learning in Market and Mechanism Design and at <a href="https://wale.gr/2024/">WALE 2024</a>.},
+  bibtex_show     = {true},
+}
+
+% ---------------------------------------------------------------- 2024
+
+@inproceedings{amanatidis2024pandora,
+  title       = {Pandora's Box Problem Over Time},
+  author      = {Amanatidis, Georgios and Fusco, Federico and Reiffenh{\"a}user, Rebecca and Tsikiridis, Artem},
+  booktitle   = {20th Conference on Web and Internet Economics (WINE)},
+  pages       = {494--512},
+  year        = {2024},
+  doi         = {10.1007/978-3-032-08560-3_28},
+  abbr        = {C7},
+  arxiv       = {2407.15261},
+  video       = {https://vimeo.com/1030373063/4ec4ecc7bb},
+  note        = {Talk at the Dutch Seminar on Optimization. Superseded by the <a href="/publications/#amanatidis2025pandora">Artificial Intelligence paper</a>.},
+  bibtex_show = {true},
+}
+
+@inproceedings{colinibaldeschi2024trust,
+  title       = {To Trust or Not to Trust: Assignment Mechanisms with Predictions in the Private Graph Model},
+  author      = {Colini-Baldeschi, Riccardo and Klumper, Sophie and Sch{\"a}fer, Guido and Tsikiridis, Artem},
+  booktitle   = {25th ACM Conference on Economics and Computation (EC)},
+  pages       = {1134--1154},
+  year        = {2024},
+  doi         = {10.1145/3670865.3673578},
+  abbr        = {C6},
+  arxiv       = {2403.03725},
+  video       = {https://www.youtube.com/watch?v=UvLPtAHPm3A},
+  poster      = {miw24.pdf},
+  note        = {Talk at EC24. Appeared as a poster at the (virtual) <a href="http://marketplaceinnovation.net">9th Marketplace Innovation Workshop</a>.},
+  selected    = {true},
+  bibtex_show = {true},
+}
+
+% ---------------------------------------------------------------- 2023
+
+@inproceedings{amanatidis2023partial,
+  title       = {Partial Allocations in Budget-Feasible Mechanism Design: Bridging Multiple Levels of Service and Divisible Agents},
+  author      = {Amanatidis, Georgios and Klumper, Sophie and Markakis, Evangelos and Sch{\"a}fer, Guido and Tsikiridis, Artem},
+  booktitle   = {19th Conference on Web and Internet Economics (WINE)},
+  pages       = {41--58},
+  year        = {2023},
+  doi         = {10.1007/978-3-031-48974-7_3},
+  abbr        = {C5},
+  arxiv       = {2307.07385},
+  note        = {Superseded by the <a href="/publications/#amanatidis2025partial">TEAC 2025 paper</a>.},
+  bibtex_show = {true},
+}
+
+@phdthesis{tsikiridis2023phd,
+  title  = {Design and Analysis of Auction Mechanisms: Algorithms and Incentives},
+  author = {Tsikiridis, Artem},
+  school = {Athens University of Economics and Business},
+  year   = {2023},
+  abbr   = {D2},
+  pdf    = {PhD_Thesis.pdf},
+  note   = {Advisor: Assoc. Prof. Vangelis Markakis},
+}
+
+% ---------------------------------------------------------------- 2017 to 2022
+
+@inproceedings{markakis2022improved,
+  title       = {On Improved Interval Cover Mechanisms for Crowdsourcing Markets},
+  author      = {Markakis, Evangelos and Papasotiropoulos, Georgios and Tsikiridis, Artem},
+  booktitle   = {15th International Symposium on Algorithmic Game Theory (SAGT)},
+  pages       = {94--112},
+  year        = {2022},
+  doi         = {10.1007/978-3-031-15714-1_6},
+  abbr        = {C4},
+  pdf         = {SAGT22.pdf},
+  bibtex_show = {true},
+}
+
+@inproceedings{markakis2021towards,
+  title       = {Towards a Characterization of Worst Case Equilibria in the Discriminatory Price Auction},
+  author      = {Markakis, Evangelos and Sgouritsa, Alkmini and Tsikiridis, Artem},
+  booktitle   = {17th Conference on Web and Internet Economics (WINE)},
+  pages       = {186--204},
+  year        = {2021},
+  doi         = {10.1007/978-3-030-94676-0_11},
+  abbr        = {C3},
+  pdf         = {WINE21.pdf},
+  video       = {https://www.tele-task.de/lecture/video/8983/},
+  note        = {Talk at WINE21.},
+  bibtex_show = {true},
+}
+
+@inproceedings{markakis2019core,
+  title       = {On Core-Selecting and Core-Competitive Mechanisms for Binary Single-Parameter Auctions},
+  author      = {Markakis, Evangelos and Tsikiridis, Artem},
+  booktitle   = {15th Conference on Web and Internet Economics (WINE)},
+  pages       = {271--285},
+  year        = {2019},
+  doi         = {10.1007/978-3-030-35389-6_20},
+  abbr        = {C2},
+  pdf         = {WINE19.pdf},
+  video       = {https://cvn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a717ed0a-083f-4393-a1f6-ab2100fc1bcc},
+  note        = {Talk at WINE19 (2:15:00).},
+  bibtex_show = {true},
+}
+
+@article{birmpas2019tight,
+  title           = {Tight Welfare Guarantees for Pure Nash Equilibria of the Uniform Price Auction},
+  author          = {Birmpas, Georgios and Markakis, Evangelos and Telelis, Orestis and Tsikiridis, Artem},
+  journal         = {Theory of Computing Systems},
+  volume          = {63},
+  number          = {7},
+  pages           = {1451--1469},
+  year            = {2019},
+  doi             = {10.1007/s00224-018-9889-7},
+  abbr            = {J1},
+  pdf             = {tocs19.pdf},
+  poster          = {20PoA-poster.pdf},
+  note            = {Supersedes the <a href="/publications/#birmpas2017tight">SAGT 2017 paper</a>. Appeared as a poster at the Workshop for the 20 years of the Price of Anarchy, 20POA 2019.},
+  bibtex_show     = {true},
+}
+
+@inproceedings{karozos2018integrating,
+  title     = {Integrating Clinical Data from Hospital Databases},
+  author    = {Karozos, Kostis and Spartalis, Iosif and Tsikiridis, Artem and Trivela, Despoina and Vassalos, Vasilis},
+  booktitle = {1st International Workshop on Semantic Web Technologies for Health Data Management (SWH@ISWC)},
+  year      = {2018},
+  abbr      = {W1},
+  pdf       = {swh.pdf},
+  keywords  = {other},
+}
+
+@inproceedings{birmpas2017tight,
+  title       = {Tight Welfare Guarantees for Pure Nash Equilibria of the Uniform Price Auction},
+  author      = {Birmpas, Georgios and Markakis, Evangelos and Telelis, Orestis and Tsikiridis, Artem},
+  booktitle   = {10th International Symposium on Algorithmic Game Theory (SAGT)},
+  pages       = {16--28},
+  year        = {2017},
+  doi         = {10.1007/978-3-319-66700-3_2},
+  abbr        = {C1},
+  award       = {Best Paper Award at SAGT 2017.},
+  award_name  = {Best Paper Award},
+  note        = {Superseded by the <a href="/publications/#birmpas2019tight">TOCS 2019 paper</a>.},
+  bibtex_show = {true},
+}
+
+@mastersthesis{tsikiridis2017msc,
+  title  = {Multi-unit Auctions: Equilibria and Inefficiency},
+  author = {Tsikiridis, Artem},
+  school = {Athens University of Economics and Business},
+  year   = {2017},
+  abbr   = {D1},
+  pdf    = {msc-thesis.pdf},
+  note   = {Advisor: Assoc. Prof. Vangelis Markakis},
 }
