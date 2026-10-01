@@ -325,3 +325,9 @@ html[data-theme-setting="light"] {
   padding-top: 1rem;
   margin-top: 2rem;
 }
+
+// Contact lines under the photo, one per line at every width. The gem sets
+// them as inline blocks, so short lines run together on phones.
+.post .profile .more-info p {
+  display: block;
+}
