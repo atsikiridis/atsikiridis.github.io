@@ -6,7 +6,7 @@ Source of [artemtsikiridis.com](https://artemtsikiridis.com), built with the [al
 
 | What | File |
 | --- | --- |
-| Home page: bio, number of news items, selected papers on/off | `_pages/about.md` |
+| Home page: position and affiliation (`subtitle`), contact lines under the photo (`more_info`), bio, number of news items, selected papers on/off | `_pages/about.md` |
 | News items | `_news/announcement_N.md` |
 | Publications (home page and `/publications/`) | `_bibliography/papers.bib`; `selected = {true}` puts a paper on the home page, `abbr` is its tag (a new conference paper gets the next C number) |
 | Sections of the publications page | `_pages/publications.md` |
