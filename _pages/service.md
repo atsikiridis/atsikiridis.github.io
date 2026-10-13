@@ -22,12 +22,14 @@ nav_order: 2
 
 - **Management Science**: 2026
 - **Operations Research**: 2025, 2026
+- **Journal of Artificial Intelligence Research**: 2026
 - **Artificial Intelligence**: 2026
 - **Naval Research Logistics**: 2025
 - **ACM Transactions on Economics and Computation**: 2026
 - **Theoretical Computer Science**: 2023, 2024, 2025
 - **Autonomous Agents and Multi-Agent Systems**: 2025
 - **ACM Transactions on the Web**: 2025
+- **ACM Transactions on Information Systems**: 2026
 {: .service-cols}
 
 ## Subreviewer
@@ -37,10 +39,10 @@ nav_order: 2
 - **EC**: 2020, 2022, 2024
 - **ICALP**: 2019, 2025, 2026
 - **WINE**: 2017, 2018, 2019, 2020
-- **ITCS**: 2020
+- **ITCS**: 2020, 2026
 - **STACS**: 2025
-- **AAMAS**: 2018, 2023
-- **APPROX**: 2023, 2024, 2025, 2026
+- **AAMAS**: 2022
+- **APPROX**: 2023, 2026
 - **SAGT**: 2022, 2024
 - **MFCS**: 2025
 - **FCT**: 2021
